@@ -1,0 +1,177 @@
+[0000.126] [TegraBoot] (version 00.00.2018.01-l4t-33e7fa82)
+[0000.131] Processing in cold boot mode Bootloader 2
+[0000.135] A02 Bootrom Patch rev = 1023
+[0000.139] Power-up reason: pmc por
+[0000.142] No Battery Present
+[0000.145] pmic max77620 reset reason
+[0000.148] pmic max77620 NVERC : 0x40
+[0000.152] RamCode = 0
+[0000.154] Platform has DDR4 type RAM
+[0000.157] max77620 disabling SD1 Remote Sense
+[0000.161] Setting DDR voltage to 1125mv
+[0000.165] Serial Number of Pmic Max77663: 0x1b23e2
+[0000.173] Entering ramdump check
+[0000.176] Get RamDumpCarveOut = 0x0
+[0000.179] RamDumpCarveOut=0x0,  RamDumperFlag=0xe59ff3f8
+[0000.184] Last reboot was clean, booting normally!
+[0000.189] Sdram initialization is successful 
+[0000.193] SecureOs Carveout Base=0x00000000ff800000 Size=0x00800000
+[0000.199] Lp0 Carveout Base=0x00000000ff780000 Size=0x00001000
+[0000.205] BpmpFw Carveout Base=0x00000000ff700000 Size=0x00080000
+[0000.211] GSC1 Carveout Base=0x00000000ff600000 Size=0x00100000
+[0000.217] GSC2 Carveout Base=0x00000000ff500000 Size=0x00100000
+[0000.223] GSC4 Carveout Base=0x00000000ff400000 Size=0x00100000
+[0000.228] GSC5 Carveout Base=0x00000000ff300000 Size=0x00100000
+[0000.234] GSC3 Carveout Base=0x000000017f300000 Size=0x00d00000
+[0000.250] RamDump Carveout Base=0x00000000ff280000 Size=0x00080000
+[0000.256] Platform-DebugCarveout: 0
+[0000.260] Nck Carveout Base=0x00000000ff080000 Size=0x00200000
+[0000.265] Non secure mode, and RB not enabled.
+[0000.272] Invalid GPT Partition
+[0000.287] Using BFS PT to query partitions 
+[0000.291] failed to load NvTbootTbootCpu from (2:0)
+[0000.296] re-load NvTbootTbootCpu from (4:0)
+[0000.300] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.310] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.317] Number of retries left 4
+[0000.320] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.330] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.337] Number of retries left 3
+[0000.340] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.350] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.357] Number of retries left 2
+[0000.360] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.370] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.376] Number of retries left 1
+[0000.380] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.390] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.396] Number of retries left 0
+[0000.399] Send command failed with 0x3
+[0000.403] CMD8 send failed. Retrying CMD0/CMD8 (2)...
+[0000.408] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.418] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.425] Number of retries left 4
+[0000.428] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.438] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.444] Number of retries left 3
+[0000.448] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.458] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.464] Number of retries left 2
+[0000.468] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.478] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.484] Number of retries left 1
+[0000.487] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.498] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.504] Number of retries left 0
+[0000.507] Send command failed with 0x3
+[0000.511] CMD8 send failed. Retrying CMD0/CMD8 (1)...
+[0000.516] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.526] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.532] Number of retries left 4
+[0000.536] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.546] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.552] Number of retries left 3
+[0000.555] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.565] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.572] Number of retries left 2
+[0000.575] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.585] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.592] Number of retries left 1
+[0000.595] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.605] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.612] Number of retries left 0
+[0000.615] Send command failed with 0x3
+[0000.618] CMD8 send failed. Retrying CMD0/CMD8 (0)...
+[0000.623] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.633] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.640] Number of retries left 4
+[0000.643] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.653] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.660] Number of retries left 3
+[0000.663] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.673] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.680] Number of retries left 2
+[0000.683] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.693] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.699] Number of retries left 1
+[0000.703] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.713] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.719] Number of retries left 0
+[0000.722] Send command failed with 0x3
+[0000.726] CMD55 send failed with error 0x3 in SdIdentifyCard func at 1846 line 
+[0000.733] Identify card failed with 0x3
+[0000.737] SdIdentifyCard has failed with error 0x3 in NvTbootSdmmcInit func at 87 line 
+[0000.744] Sdmmc Init failed with 0x3 error
+[0000.749] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.759] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.765] Number of retries left 4
+[0000.768] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.779] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.785] Number of retries left 3
+[0000.788] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.798] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.805] Number of retries left 2
+[0000.808] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.818] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.825] Number of retries left 1
+[0000.828] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.838] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.845] Number of retries left 0
+[0000.848] Send command failed with 0x3
+[0000.851] CMD8 send failed. Retrying CMD0/CMD8 (2)...
+[0000.856] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.866] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.873] Number of retries left 4
+[0000.876] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.886] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.893] Number of retries left 3
+[0000.896] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.906] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.913] Number of retries left 2
+[0000.916] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.926] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.932] Number of retries left 1
+[0000.936] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.946] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0000.952] Number of retries left 0
+[0000.955] Send command failed with 0x3
+[0000.959] CMD8 send failed. Retrying CMD0/CMD8 (1)...
+[0000.964] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.974] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0000.981] Number of retries left 4
+[0000.984] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0000.994] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0001.000] Number of retries left 3
+[0001.004] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0001.014] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0001.020] Number of retries left 2
+[0001.024] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0001.034] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0001.040] Number of retries left 1
+[0001.043] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0001.054] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0001.060] Number of retries left 0
+[0001.063] Send command failed with 0x3
+[0001.067] CMD8 send failed. Retrying CMD0/CMD8 (0)...
+[0001.072] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0001.082] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0001.088] Number of retries left 4
+[0001.092] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0001.102] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0001.108] Number of retries left 3
+[0001.111] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0001.122] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0001.128] Number of retries left 2
+[0001.131] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0001.141] Command complete wait failed with error 0x3 Interrupt 0x18001
+[0001.148] Number of retries left 1
+[0001.151] Error mask set in wait for cmd complete with error 0x3 in HwSdmmcWaitForCommandComplete func at 278 line 
+[0001.161] Command complete wait failed with error 0x3 Interrupt 0x18000
+[0001.168] Number of retries left 0
+[0001.171] Send command failed with 0x3
+[0001.174] CMD55 send failed with error 0x3 in SdIdentifyCard func at 1846 line 
+[0001.181] Identify card failed with 0x3
+[0001.185] SdIdentifyCard has failed with error 0x3 in NvTbootSdmmcInit func at 87 line 
+[0001.193] Sdmmc Init failed with 0x3 error
+[0001.197] Error is 3 
+
