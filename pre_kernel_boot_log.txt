@@ -1,0 +1,411 @@
+[0000.126] [TegraBoot] (version 00.00.2018.01-l4t-33e7fa82)
+[0000.131] Processing in cold boot mode Bootloader 2
+[0000.135] A02 Bootrom Patch rev = 1023
+[0000.139] Power-up reason: pmc por
+[0000.142] No Battery Present
+[0000.145] pmic max77620 reset reason
+[0000.148] pmic max77620 NVERC : 0x40
+[0000.152] RamCode = 0
+[0000.154] Platform has DDR4 type RAM
+[0000.157] max77620 disabling SD1 Remote Sense
+[0000.161] Setting DDR voltage to 1125mv
+[0000.165] Serial Number of Pmic Max77663: 0x1b23e2
+[0000.173] Entering ramdump check
+[0000.176] Get RamDumpCarveOut = 0x0
+[0000.179] RamDumpCarveOut=0x0,  RamDumperFlag=0xe59ff3f8
+[0000.184] Last reboot was clean, booting normally!
+[0000.189] Sdram initialization is successful 
+[0000.193] SecureOs Carveout Base=0x00000000ff800000 Size=0x00800000
+[0000.199] Lp0 Carveout Base=0x00000000ff780000 Size=0x00001000
+[0000.205] BpmpFw Carveout Base=0x00000000ff700000 Size=0x00080000
+[0000.211] GSC1 Carveout Base=0x00000000ff600000 Size=0x00100000
+[0000.217] GSC2 Carveout Base=0x00000000ff500000 Size=0x00100000
+[0000.223] GSC4 Carveout Base=0x00000000ff400000 Size=0x00100000
+[0000.228] GSC5 Carveout Base=0x00000000ff300000 Size=0x00100000
+[0000.234] GSC3 Carveout Base=0x000000017f300000 Size=0x00d00000
+[0000.250] RamDump Carveout Base=0x00000000ff280000 Size=0x00080000
+[0000.256] Platform-DebugCarveout: 0
+[0000.260] Nck Carveout Base=0x00000000ff080000 Size=0x00200000
+[0000.265] Non secure mode, and RB not enabled.
+[0000.272] Invalid GPT Partition
+[0000.287] Using BFS PT to query partitions 
+[0000.291] failed to load NvTbootTbootCpu from (2:0)
+[0000.296] re-load NvTbootTbootCpu from (4:0)
+[0000.422] Csd NumOfBlocks=62333952
+[0000.483] Using GPT Primary to query partitions
+[0000.494] Loading Tboot-CPU binary
+[0000.870] Verifying TBC in OdmNonSecureSBK mode
+[0000.880] Bootloader load address is 0xa0000000, entry address is 0xa0000258
+[0000.887] Bootloader downloaded successfully.
+[0000.892] Downloaded Tboot-CPU binary to 0xa0000258
+[0000.897] MAX77620_GPIO5 configured
+[0000.900] CPU power rail is up
+[0000.903] CPU clock enabled
+[0000.907] Performing RAM repair
+[0000.910] Updating A64 Warmreset Address to 0xa00002e9
+[0000.915] Loading NvTbootBootloaderDTB
+[0002.226] Verifying NvTbootBootloaderDTB in OdmNonSecureSBK mode
+[0002.287] Bootloader DTB Load Address: 0x83000000
+[0002.292] Loading NvTbootKernelDTB
+[0003.602] Verifying NvTbootKernelDTB in OdmNonSecureSBK mode
+[0003.663] Kernel DTB Load Address: 0x83100000
+[0003.674] Loading cboot binary
+[0005.355] Verifying EBT in OdmNonSecureSBK mode
+[0005.397] Bootloader load address is 0x92c00000, entry address is 0x92c00258
+[0005.404] Bootloader downloaded successfully.
+[0005.598] Using BFS PT to query partitions 
+[0005.602] Next binary entry address: 0x92c00258 
+[0005.606] BoardId: 3448
+[0005.611] Overriding pmu board id with proc board id
+[0005.616] Display board id is not available 
+[0007.114] Verifying SC7EntryFw in OdmNonSecureSBK mode
+[0007.167] /bpmp deleted
+[0007.169] SC7EntryFw header found loaded at 0xff700000
+[0007.360] OVR2 PMIC
+[0007.362] Bpmp FW successfully loaded
+[0007.380] WB0 init successfully at 0xff780000
+[0007.385] Set NvDecSticky Bits
+[0007.388] GSC2 address ff53fffc value c0edbbcc
+[0007.394] GSC MC Settings done
+[0007.402] TOS Image length 53680
+[0007.405]  Monitor size 53680
+[0007.408]  OS size 0
+[0007.571] Secure Os AES-CMAC Verification Success!
+[0007.575] TOS image cipher info: plaintext
+[0007.579] Loading and Validation of Secure OS Successful
+[0007.595] SC7 Entry Firmware - 0xff700000, 0x4000
+[0007.600] NvTbootPackSdramParams: start. 
+[0007.605] NvTbootPackSdramParams: done. 
+[0007.609] Tegraboot started after 53275 us
+[0007.612] Basic modules init took 5702031 us
+[0007.617] NvTbootQspiFlashIoctl: Opcode = 1 not supported
+[0007.622] Sec Bootdevice Read Time = 12 ms, Read Size = 65 KB
+[0007.627] Sec Bootdevice Write Time = 0 ms, Write Size = 0 KB
+[0007.633] Storage Device Read Time = 6750 ms, Read Size = 2306 KB
+[0007.639] Storage Device Write Time = 0 ms, Write Size = 0 KB
+[0007.644] Next stage binary read took 1529610 us
+[0007.649] Carveout took -1541290 us
+[0007.652] CPU initialization took 2047940 us
+[0007.656] Total time taken by TegraBoot 7738291 us
+
+[0007.661] Starting CPU & Halting co-processor 
+
+64NOTICE:  BL31: v1.3(release):eca0c5e
+NOTICE:  BL31: Built : 00:21:27, Mar 13 2019
+ERROR:   Error initializing runtime service trusty_fast
+[0007.783] RamCode = 0
+[0007.788] LPDDR4 Training: Read DT: Number of tables = 2
+[0007.793] EMC Training (SRC-freq: 204000; DST-freq: 1600000)
+[0007.805] EMC Training Successful
+[0007.808] 408000 not found in DVFS table
+[0007.815] RamCode = 0
+[0007.818] DT Write: emc-table@204000 succeeded
+[0007.824] DT Write: emc-table@1600000 succeeded
+[0007.828] LPDDR4 Training: Write DT: Number of tables = 2
+[0008.025] 
+[0008.026] Debug Init done
+[0008.028] Marked DTB cacheable
+[0008.031] Bootloader DTB loaded at 0x83000000
+[0008.036] Marked DTB cacheable
+[0008.039] Kernel DTB loaded at 0x83100000
+[0008.043] DeviceTree Init done
+[0008.055] Pinmux applied successfully
+[0008.060] gicd_base: 0x50041000
+[0008.063] gicc_base: 0x50042000
+[0008.066] Interrupts Init done
+[0008.070] Using base:0x60005090 & irq:208 for tick-timer
+[0008.075] Using base:0x60005098 for delay-timer
+[0008.080] platform_init_timer: DONE
+[0008.083] Timer(tick) Init done
+[0008.087] osc freq = 38400 khz
+[0008.091] 
+[0008.092] welcome to cboot
+[0008.095] 
+[0008.096] Cboot Version: 00.00.2018.01-t210-f76b856b
+[0008.101] calling constructors
+[0008.104] initializing heap
+[0008.106] initializing threads
+[0008.109] initializing timers
+[0008.112] creating bootstrap completion thread
+[0008.117] top of bootstrap2()
+[0008.120] CPU: ARM Cortex A57
+[0008.122] CPU: MIDR: 0x411FD071, MPIDR: 0x80000000
+[0008.127] initializing platform
+[0008.130] Scratch reg 37 & 271 initial value set..
+[0008.137] cboot:secure-pmc present
+[0008.140] Manufacturer: MF = 0xc2, ID MSB = 0x25
+[0008.144] ID LSB = 0x36, ID-CFI len = 194 bytes
+[0008.149] Macronix QSPI chip present
+[0008.152] SPI device register
+[0008.155] init boot device
+[0008.158] allocating memory for boot device(SPI)
+[0008.162] registering boot device
+[0008.172] sdmmc node status = okay
+[0008.175] sdcard instance = 0
+[0008.178] sdcard gpio handle 0x5d
+[0008.181] sdcard gpio pin 0xc9
+[0008.184] sdcard gpio flags 0x0
+[0008.187] vmmc-supply 0x9d
+[0008.190] Instance: 0
+[0008.192] Allocating memory for context
+[0008.196] enabling clock
+[0008.198] sd card init
+[0008.200] Check card present and stable
+[0008.204] Send command 0
+[0008.229] Send command 3
+[0008.233] Set RCA for the card
+[0008.236] Query card specific data by command 9
+[0008.242] Parse CSD data
+[0008.245] Send command 7
+[0008.255] Calling sd device register
+[0008.258] Init sdcard
+[0008.261] Allocating memory for boot device
+[0008.265] Registering user device
+[0008.278] Enable APE clock
+[0008.280] Un-powergate APE partition
+[0008.284] of_register: registering tegra_udc to of_hal
+[0008.289] of_register: registering tegra_udc to of_hal
+[0008.294] of_register: registering inv20628-driver to of_hal
+[0008.300] of_register: registering ads1015-driver to of_hal
+[0008.305] of_register: registering lp8557-bl-driver to of_hal
+[0008.311] of_register: registering bq2419x_charger to of_hal
+[0008.317] of_register: registering cpc to of_hal
+[0008.321] of_register: registering bq27441_fuel_gauge to of_hal
+[0008.333] gpio framework initialized
+[0008.336] of_register: registering tca9539_gpio to of_hal
+[0008.342] of_register: registering tca9539_gpio to of_hal
+[0008.347] of_register: registering i2c_bus_driver to of_hal
+[0008.352] of_register: registering i2c_bus_driver to of_hal
+[0008.358] of_register: registering i2c_bus_driver to of_hal
+[0008.364] of_register: registering i2c_bus_driver to of_hal
+[0008.369] pmic framework initialized
+[0008.373] of_register: registering max77620_pmic to of_hal
+[0008.378] regulator framework initialized
+[0008.382] of_register: registering tps65132_bl_driver to of_hal
+[0008.388] initializing target
+[0008.394] gpio_driver_register: register 'tegra_gpio_driver' driver
+[0008.402] fixed regulator driver initialized
+[0008.420] initializing OF layer
+[0008.423] NCK carveout not present
+[0008.426] Skipping dts_overrides
+[0008.430] of_children_init: Ops found for compatible string nvidia,tegra210-i2c
+[0008.446] I2C Bus Init done
+[0008.449] of_children_init: Ops found for compatible string nvidia,tegra210-i2c
+[0008.459] I2C Bus Init done
+[0008.462] of_children_init: Ops found for compatible string nvidia,tegra210-i2c
+[0008.472] I2C Bus Init done
+[0008.475] of_children_init: Ops found for compatible string nvidia,tegra210-i2c
+[0008.485] I2C Bus Init done
+[0008.487] of_children_init: Ops found for compatible string nvidia,tegra210-i2c
+[0008.498] I2C Bus Init done
+[0008.500] of_children_init: Ops found for compatible string maxim,max77620
+[0008.511] max77620_init using irq 118
+[0008.516] register 'maxim,max77620' pmic
+[0008.520] gpio_driver_register: register 'max77620-gpio' driver
+[0008.526] of_children_init: Ops found for compatible string nvidia,tegra210-i2c
+[0008.537] I2C Bus Init done
+[0008.540] NCK carveout not present
+[0008.543] shim_invoke: No NCT, Calling dts updates
+[0008.554] Find /i2c@7000c000's alias i2c0
+[0008.558] get eeprom at 1-a0, size 256, type 0
+[0008.567] Find /i2c@7000c500's alias i2c2
+[0008.571] get eeprom at 3-a0, size 256, type 0
+[0008.575] get eeprom at 3-ae, size 256, type 0
+[0008.580] pm_ids_update: Updating 1,a0, size 256, type 0
+[0008.585] I2C slave not started
+[0008.588] I2C write failed
+[0008.591] Writing offset failed
+[0008.594] eeprom_init: EEPROM read failed
+[0008.598] pm_ids_update: eeprom init failed
+[0008.602] pm_ids_update: Updating 3,a0, size 256, type 0
+[0008.632] pm_ids_update: The pm board id is 3448-0000-200
+[0008.638] Adding plugin-manager/ids/3448-0000-200=/i2c@7000c500:module@0x50
+[0008.646] pm_ids_update: pm id update successful
+[0008.651] pm_ids_update: Updating 3,ae, size 256, type 0
+[0008.681] pm_ids_update: The pm board id is 3449-0000-200
+[0008.687] Adding plugin-manager/ids/3449-0000-200=/i2c@7000c500:module@0x57
+[0008.695] pm_ids_update: pm id update successful
+[0008.725] eeprom_get_mac: EEPROM invalid MAC address (all 0xff)
+[0008.731] shim_eeprom_update_mac:267: Failed to update 0 MAC address in DTB
+[0008.739] eeprom_get_mac: EEPROM invalid MAC address (all 0xff)
+[0008.745] shim_eeprom_update_mac:267: Failed to update 1 MAC address in DTB
+[0008.753] updating /chosen/nvidia,ethernet-mac node 00:04:4b:e4:08:3d
+[0008.759] Plugin Manager: Parse ODM data 0x00084000
+[0008.770] shim_cmdline_install: /chosen/bootargs: root=/dev/mmcblk0p1 rw rootwait console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0   
+[0008.790] Find /i2c@7000c000's alias i2c0
+[0008.794] get eeprom at 1-a0, size 256, type 0
+[0008.802] Find /i2c@7000c500's alias i2c2
+[0008.806] get eeprom at 3-a0, size 256, type 0
+[0008.811] get eeprom at 3-ae, size 256, type 0
+[0008.815] pm_ids_update: Updating 1,a0, size 256, type 0
+[0008.820] I2C slave not started
+[0008.823] I2C write failed
+[0008.826] Writing offset failed
+[0008.829] eeprom_init: EEPROM read failed
+[0008.833] pm_ids_update: eeprom init failed
+[0008.837] pm_ids_update: Updating 3,a0, size 256, type 0
+[0008.867] pm_ids_update: The pm board id is 3448-0000-200
+[0008.874] Adding plugin-manager/ids/3448-0000-200=/i2c@7000c500:module@0x50
+[0008.880] pm_ids_update: pm id update successful
+[0008.885] pm_ids_update: Updating 3,ae, size 256, type 0
+[0008.915] pm_ids_update: The pm board id is 3449-0000-200
+[0008.921] Adding plugin-manager/ids/3449-0000-200=/i2c@7000c500:module@0x57
+[0008.928] pm_ids_update: pm id update successful
+[0008.959] Chip UID is 00000001644107820800000013008040
+[0008.964] Add serial number:04211190056020408000 as DT property
+[0008.972] Applying platform configs
+[0008.978] platform-init is not present. Skipping
+[0008.983] calling apps_init()
+[0009.008] Found 12 GPT partitions in "sd0"
+[0009.012] Proceeding to Cold Boot
+[0009.015] starting app android_boot_app
+[0009.019] Device state: unlocked
+[0009.022] display console init
+[0009.030] could not find regulator
+[0009.053] hdmi cable not connected
+[0009.057] is_hdmi_needed: HDMI not connected, returning false
+[0009.065] hdmi is not connected
+[0009.068] sor0 is not supported
+[0009.071] display_console_init: no valid display out_type
+[0009.079] subnode volume_up is not found !
+[0009.083] subnode back is not found !
+[0009.087] subnode volume_down is not found !
+[0009.091] subnode menu is not found !
+[0009.094] Gpio keyboard init success
+[0009.140] found decompressor handler: lz4-legacy
+[0009.155] decompressing blob (type 1)...
+[0009.188] display_resolution: No display init
+[0009.192] Failed to retrieve display resolution
+[0009.197] Could not load/initialize BMP blob...ignoring
+[0009.250] decompressor handler not found
+[0009.253] load_firmware_blob: Firmware blob loaded, entries=2
+[0009.259] se_aes_verify_sbk_clear: Error
+[0009.263] bl_battery_charging: connected to external power supply
+[0009.270] xusb is supported
+[0009.276] error while finding nvidia,portmap
+[0009.282] could not find regulator
+[0009.785] xusb blob version 0 size 126464
+[0009.789] firmware size 126464
+[0009.794] Firmware timestamp: 0x59fc70d3, Version: 50.20 release
+[0009.802] xhci0: 64 bytes context size, 32-bit DMA
+[0009.842] usbus0: 5.0Gbps Super Speed USB v3.0
+[0009.862] uhub0: <Nvidia XHCI root HUB, class 9/0, rev 3.00/1.00, addr 1> on usbus0
+[0010.512] uhub0: 9 ports with 9 removable, self powered
+[0011.512] failed to get HID devices
+[0011.516] failed to init xhci or no usb device attached
+[0011.523] display_console_ioctl: No display init
+[0011.527] switch_backlight failed
+[0011.534] device_query_partition_size: failed to open partition sd0:MSC !
+[0011.540] MSC Partition not found
+[0011.546] device_query_partition_size: failed to open partition sd0:USP !
+[0011.553] USP partition read failed!
+[0011.557] blob_init: blob-partition USP header read failed
+[0011.562] android_boot Unable to update recovery partition
+[0011.568] kfs_getpartname: name = LNX
+[0011.571] Loading kernel from LNX
+[0011.630] Verifying boot image in OdmNonSecureSBK mode
+[0011.673] kernel load address: 0x80080000, size: 476936 bytes
+[0011.679] ramdisk load address: 0x84100000, size: 0 bytes
+[0011.684] load kernel from storage
+[0011.696] decompressor handler not found
+[0011.753] Successfully loaded kernel and ramdisk images
+[0011.759] display_resolution: No display init
+[0011.763] Failed to retrieve display resolution
+[0011.767] bmp blob is not loaded and initialized
+[0011.772] Failed to display boot-logo
+[0011.776] NCK carveout not present
+[0011.779] Skipping dts_overrides
+[0011.782] NCK carveout not present
+[0011.785] shim_invoke: No NCT, Calling dts updates
+[0011.796] Find /i2c@7000c000's alias i2c0
+[0011.800] get eeprom at 1-a0, size 256, type 0
+[0011.809] Find /i2c@7000c500's alias i2c2
+[0011.813] get eeprom at 3-a0, size 256, type 0
+[0011.817] get eeprom at 3-ae, size 256, type 0
+[0011.822] pm_ids_update: Updating 1,a0, size 256, type 0
+[0011.827] I2C slave not started
+[0011.830] I2C write failed
+[0011.833] Writing offset failed
+[0011.836] eeprom_init: EEPROM read failed
+[0011.840] pm_ids_update: eeprom init failed
+[0011.844] pm_ids_update: Updating 3,a0, size 256, type 0
+[0011.874] pm_ids_update: The pm board id is 3448-0000-200
+[0011.880] Adding plugin-manager/ids/3448-0000-200=/i2c@7000c500:module@0x50
+[0011.888] pm_ids_update: pm id update successful
+[0011.893] pm_ids_update: Updating 3,ae, size 256, type 0
+[0011.923] pm_ids_update: The pm board id is 3449-0000-200
+[0011.929] Adding plugin-manager/ids/3449-0000-200=/i2c@7000c500:module@0x57
+[0011.937] pm_ids_update: pm id update successful
+[0011.967] eeprom_get_mac: EEPROM invalid MAC address (all 0xff)
+[0011.973] shim_eeprom_update_mac:267: Failed to update 0 MAC address in DTB
+[0011.981] eeprom_get_mac: EEPROM invalid MAC address (all 0xff)
+[0011.987] shim_eeprom_update_mac:267: Failed to update 1 MAC address in DTB
+[0011.995] updating /chosen/nvidia,ethernet-mac node 00:04:4b:e4:08:3d
+[0012.001] Plugin Manager: Parse ODM data 0x00084000
+[0012.012] shim_cmdline_install: /chosen/bootargs: root=/dev/mmcblk0p1 rw rootwait console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0   
+[0012.026] Add serial number:04211190056020408000 as DT property
+[0012.035] "bpmp" doesn't exist, creating 
+[0012.040] Updated bpmp info to DTB
+[0012.045] Updated initrd info to DTB
+[0012.048] "proc-board" doesn't exist, creating 
+[0012.054] Updated board info to DTB
+[0012.057] "pmu-board" doesn't exist, creating 
+[0012.063] Updated board info to DTB
+[0012.066] "display-board" doesn't exist, creating 
+[0012.072] Updated board info to DTB
+[0012.075] "reset" doesn't exist, creating 
+[0012.080] Updated reset info to DTB
+[0012.083] display_console_ioctl: No display init
+[0012.088] display_console_ioctl: No display init
+[0012.092] display_console_ioctl: No display init
+[0012.097] Cmdline: tegraid=21.1.2.0.0 ddr_die=4096M@2048M section=512M memtype=0 vpr_resize usb_port_owner_info=0 lane_owner_info=0 emc_max_dvfs=0 touch_id=0@63 video=tegrafb no_console_suspend=1 console=ttyS0,115200n8 debug_uartport=lsport,0 earlyprintk=uart8250-32bit,0x70006000 maxcpus=4 usbcore.old_scheme_first=1 lp0_vec=0x1000@0xff780000 core_edp_mv=1125 core_edp_ma=4000 
+[0012.131] DTB cmdline: root=/dev/mmcblk0p1 rw rootwait console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0   
+[0012.142] boot image cmdline: root=/dev/mmcblk0p1 rw rootwait console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 
+[0012.154] Updated bootarg info to DTB
+[0012.157] Adding uuid 00000001644107820800000013008040 to DT
+[0012.167] device_query_partition_size: failed to open partition sd0:RP6 !
+[0012.174] RP6 partition read failed!
+[0012.178] WARNING: Failed to pass NS DRAM ranges to TOS, err: -7
+[0012.184] Updated memory info to DTB
+[0012.190] Updated system-lp0-disable info to DTB
+[0012.197] set vdd_core voltage to 1125 mv
+[0012.201] setting 'vdd-core' regulator to 1125000 micro volts
+[0012.222] could not find regulator
+[0012.226] Found secure-pmc; disable BPMP
+
+
+U-Boot 2016.07-g0eb73f4 (Mar 13 2019 - 00:21:24 -0700)
+
+TEGRA210
+Model: NVIDIA P3450-Porg
+Board: NVIDIA P3450-PORG
+DRAM:  4 GiB
+MMC:   Tegra SD/MMC: 0, Tegra SD/MMC: 1
+Using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   No ethernet found.
+Hit any key to stop autoboot:  2  1  0 
+switch to partitions #0, OK
+mmc1 is current device
+Scanning mmc 1:1...
+Found /boot/extlinux/extlinux.conf
+Retrieving file: /boot/extlinux/extlinux.conf
+250 bytes read in 111 ms (2 KiB/s)
+p3450-porg eMMC boot options
+1:	primary kernel
+Enter choice: 1:	primary kernel
+Retrieving file: /boot/initrd
+0 bytes read in 87 ms (0 Bytes/s)
+Retrieving file: /boot/Image
+34508808 bytes read in 1558 ms (21.1 MiB/s)
+append: tegraid=21.1.2.0.0 ddr_die=4096M@2048M section=512M memtype=0 vpr_resize usb_port_owner_info=0 lane_owner_info=0 emc_max_dvfs=0 touch_id=0@63 video=tegrafb no_console_suspend=1 console=ttyS0,115200n8 debug_uartport=lsport,0 earlyprintk=uart8250-32bit,0x70006000 maxcpus=4 usbcore.old_scheme_first=1 lp0_vec=0x1000@0xff780000 core_edp_mv=1125 core_edp_ma=4000  root=/dev/mmcblk0p1 rw rootwait console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0    root=/dev/mmcblk0p1 rw rootwait console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 rootfstype=ext4 root=/dev/sda1 rw rootwait zswap.enabled=1
+## Flattened Device Tree blob at 83100000
+   Booting using the fdt blob at 0x83100000
+   reserving fdt memory region: addr=80000000 size=20000
+   Using Device Tree in place at 0000000083100000, end 0000000083173e9a
+
+Starting kernel ...
+
